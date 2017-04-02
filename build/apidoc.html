@@ -1,0 +1,351 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="http://github.com/dominictarr/JSONStream"
+
+    >jsonstream (v1.0.3)</a>
+</h1>
+<h4>rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.jsonstream">module jsonstream</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsonstream.parse">
+            function <span class="apidocSignatureSpan">jsonstream.</span>parse
+            <span class="apidocSignatureSpan">(path, map)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsonstream.stringify">
+            function <span class="apidocSignatureSpan">jsonstream.</span>stringify
+            <span class="apidocSignatureSpan">(op, sep, cl, indent)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.jsonstream.stringifyObject">
+            function <span class="apidocSignatureSpan">jsonstream.</span>stringifyObject
+            <span class="apidocSignatureSpan">(op, sep, cl, indent)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.jsonstream" id="apidoc.module.jsonstream">module jsonstream</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.jsonstream.parse" id="apidoc.element.jsonstream.parse">
+        function <span class="apidocSignatureSpan">jsonstream.</span>parse
+        <span class="apidocSignatureSpan">(path, map)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parse = function (path, map) {
+
+  var parser = new Parser()
+  var stream = through(function (chunk) {
+    if(&#x27;string&#x27; === typeof chunk)
+      chunk = new Buffer(chunk)
+    parser.write(chunk)
+  },
+  function (data) {
+    if(data)
+      stream.write(data)
+    stream.queue(null)
+  })
+
+  if(&#x27;string&#x27; === typeof path)
+    path = path.split(&#x27;.&#x27;).map(function (e) {
+      if (e === &#x27;*&#x27;)
+        return true
+      else if (e === &#x27;&#x27;) // &#x27;..&#x27;.split(&#x27;.&#x27;) returns an empty string
+        return {recurse: true}
+      else
+        return e
+    })
+
+
+  var count = 0, _key
+  if(!path || !path.length)
+    path = null
+
+  parser.onValue = function (value) {
+    if (!this.root)
+      stream.root = value
+
+    if(! path) return
+
+    var i = 0 // iterates on path
+    var j  = 0 // iterates on stack
+    while (i &#x3c; path.length) {
+      var key = path[i]
+      var c
+      j++
+
+      if (key &#x26;&#x26; !key.recurse) {
+        c = (j === this.stack.length) ? this : this.stack[j]
+        if (!c) return
+        if (! check(key, c.key)) return
+        i++
+      } else {
+        i++
+        var nextKey = path[i]
+        if (! nextKey) return
+        while (true) {
+          c = (j === this.stack.length) ? this : this.stack[j]
+          if (!c) return
+          if (check(nextKey, c.key)) {
+            i++;
+            this.stack[j].value = null
+            break
+          }
+          j++
+        }
+      }
+
+    }
+    if (j !== this.stack.length) return
+
+    count ++
+    var actualPath = this.stack.slice(1).map(function(element) { return element.key }).concat([this.key])
+    var data = this.value[this.key]
+    if(null != data)
+      if(null != (data = map ? map(data, actualPath) : data))
+        stream.queue(data)
+    delete this.value[this.key]
+    for(var k in this.stack)
+      this.stack[k].value = null
+  }
+  parser._onToken = parser.onToken;
+
+  parser.onToken = function (token, value) {
+    parser._onToken(token, value);
+    if (this.stack.length === 0) {
+      if (stream.root) {
+        if(!path)
+          stream.queue(stream.root)
+        count = 0;
+        stream.root = null;
+      }
+    }
+  }
+
+  parser.onError = function (err) {
+    if(err.message.indexOf(&#x22;at position&#x22;) &#x3e; -1)
+      err.message = &#x22;Invalid JSON (&#x22; + err.message + &#x22;)&#x22;;
+    stream.emit(&#x27;error&#x27;, err)
+  }
+
+
+  return stream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  })
+
+  return stream
+}
+
+if(!module.parent &#x26;&#x26; process.title !== &#x27;browser&#x27;) {
+  process.stdin
+    .pipe(exports.<span class="apidocCodeKeywordSpan">parse</span>(process.argv[2]))
+    .pipe(exports.stringify(&#x27;[&#x27;, &#x27;,\n&#x27;, &#x27;]\n&#x27;, 2))
+    .pipe(process.stdout)
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jsonstream.stringify" id="apidoc.element.jsonstream.stringify">
+        function <span class="apidocSignatureSpan">jsonstream.</span>stringify
+        <span class="apidocSignatureSpan">(op, sep, cl, indent)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stringify = function (op, sep, cl, indent) {
+  indent = indent || 0
+  if (op === false){
+    op = &#x27;&#x27;
+    sep = &#x27;\n&#x27;
+    cl = &#x27;&#x27;
+  } else if (op == null) {
+
+    op = &#x27;[\n&#x27;
+    sep = &#x27;\n,\n&#x27;
+    cl = &#x27;\n]\n&#x27;
+
+  }
+
+  //else, what ever you like
+
+  var stream
+    , first = true
+    , anyData = false
+  stream = through(function (data) {
+    anyData = true
+    var json = JSON.stringify(data, null, indent)
+    if(first) { first = false ; stream.queue(op + json)}
+    else stream.queue(sep + json)
+  },
+  function (data) {
+    if(!anyData)
+      stream.queue(op)
+    stream.queue(cl)
+    stream.queue(null)
+  })
+
+  return stream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//else, what ever you like
+
+var stream
+  , first = true
+  , anyData = false
+stream = through(function (data) {
+  anyData = true
+  var json = JSON.<span class="apidocCodeKeywordSpan">stringify</span>(data, null, indent)
+  if(first) { first = false ; stream.queue(op + json)}
+  else stream.queue(sep + json)
+},
+function (data) {
+  if(!anyData)
+    stream.queue(op)
+  stream.queue(cl)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.jsonstream.stringifyObject" id="apidoc.element.jsonstream.stringifyObject">
+        function <span class="apidocSignatureSpan">jsonstream.</span>stringifyObject
+        <span class="apidocSignatureSpan">(op, sep, cl, indent)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stringifyObject = function (op, sep, cl, indent) {
+  indent = indent || 0
+  if (op === false){
+    op = &#x27;&#x27;
+    sep = &#x27;\n&#x27;
+    cl = &#x27;&#x27;
+  } else if (op == null) {
+
+    op = &#x27;{\n&#x27;
+    sep = &#x27;\n,\n&#x27;
+    cl = &#x27;\n}\n&#x27;
+
+  }
+
+  //else, what ever you like
+
+  var first = true
+    , anyData = false
+  stream = through(function (data) {
+    anyData = true
+    var json = JSON.stringify(data[0]) + &#x27;:&#x27; + JSON.stringify(data[1], null, indent)
+    if(first) { first = false ; this.queue(op + json)}
+    else this.queue(sep + json)
+  },
+  function (data) {
+    if(!anyData) this.queue(op)
+    this.queue(cl)
+
+    this.queue(null)
+  })
+
+  return stream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+the elements will only be seperated by a newline.
+
+If you only write one item this will be valid JSON.
+
+If you write many items,
+you can use a `RegExp` to split it into valid chunks.
+
+## JSONStream.<span class="apidocCodeKeywordSpan">stringifyObject</span>(open, sep, close)
+
+Very much like `JSONStream.stringify`,
+but creates a writable stream for objects instead of arrays.
+
+Accordingly, `open=&#x27;{\n&#x27;, sep=&#x27;\n,\n&#x27;, close=&#x27;\n}\n&#x27;`.
+
+When you `.write()` to the stream you must supply an array with `[ key, data ]`
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>

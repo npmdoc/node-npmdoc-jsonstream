@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"jsonstream",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "jsonstream",
+    "description": "api documentation for [jsonstream (v1.0.3)](http://github.com/dominictarr/JSONStream) [![npm package](https://img.shields.io/npm/v/npmdoc-jsonstream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsonstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)",
     "devDependencies": {
-        "jsonstream": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "jsonstream": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-jsonstream",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-jsonstream",
+    "keywords": [
+        "documentation",
+        "jsonstream"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_jsonstream.js",
+    "name": "npmdoc-jsonstream",
+    "nameAlias": "npmdoc_jsonstream",
+    "nameOriginal": "npmdoc-jsonstream",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-jsonstream.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }

@@ -1,11 +1,13 @@
 # api documentation for  [jsonstream (v1.0.3)](http://github.com/dominictarr/JSONStream)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsonstream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsonstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)
 #### rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 
-[![NPM](https://nodei.co/npm/jsonstream.png?downloads=true)](https://www.npmjs.com/package/jsonstream)
+[![NPM](https://nodei.co/npm/jsonstream.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jsonstream)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-jsonstream_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsonstream/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsonstream/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -16,7 +18,6 @@
 {
     "author": {
         "name": "Dominic Tarr",
-        "email": "dominic.tarr@gmail.com",
         "url": "http://bit.ly/dominictarr"
     },
     "bin": {
@@ -59,13 +60,11 @@
     ],
     "maintainers": [
         {
-            "name": "dominictarr",
-            "email": "dominic.tarr@gmail.com"
+            "name": "dominictarr"
         }
     ],
     "name": "jsonstream",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/dominictarr/JSONStream.git"

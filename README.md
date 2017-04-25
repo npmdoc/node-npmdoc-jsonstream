@@ -1,4 +1,7 @@
-# api documentation for  [jsonstream (v1.0.3)](http://github.com/dominictarr/JSONStream)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsonstream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsonstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)
+# npmdoc-jsonstream
+
+#### basic api documentation for  [jsonstream (v1.0.3)](http://github.com/dominictarr/JSONStream)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsonstream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsonstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)
+
 #### rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 
 [![NPM](https://nodei.co/npm/jsonstream.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jsonstream)

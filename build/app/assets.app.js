@@ -32956,7 +32956,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/npmdoc/node-npmdoc-jsonstream",
             "npm_package_name": "npmdoc-jsonstream",
             "npm_package_nameLib": "npmdoc_jsonstream",
-            "npm_package_version": "2018.6.16"
+            "npm_package_version": "0.0.3"
         }
     }
 });

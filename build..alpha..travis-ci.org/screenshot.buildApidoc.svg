@@ -1,0 +1,66 @@
+<svg height="558" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="558" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-16T07:58:29.136Z - npm-testing /home/travis/build/npmdoc/node\</tspan>
+<tspan x="10" y="58">-npmdoc-jsonstream</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">buildApidoc - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/\</tspan>
+<tspan x="10" y="122">build/test-report.json</tspan>
+
+<tspan x="10" y="138">&gt; server listening on http-port 53337</tspan>
+
+<tspan x="10" y="154">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+
+<tspan x="10" y="170"></tspan>
+
+<tspan x="10" y="186">buildApidoc - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/\</tspan>
+<tspan x="10" y="202">build/test-report.json</tspan>
+
+<tspan x="10" y="218"></tspan>
+
+<tspan x="10" y="234">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="250">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-16T07:58:29.357Z</tspan>
+
+<tspan x="10" y="266">|       5 ms            0 failed        1 passed      |</tspan>
+
+<tspan x="10" y="282">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="298">| test-report - buildApp - node - linux v6.14.3 - 2018-06-16T07:58:00.749Z</tspan>
+
+<tspan x="10" y="314">|   25757 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="330">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="346">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="362">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-16T07:58:11.811Z</tspan>
+
+<tspan x="10" y="378">|      49 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="394">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="410"></tspan>
+
+<tspan x="10" y="426">created test-report file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/build/test-report.\</tspan>
+<tspan x="10" y="442">html</tspan>
+
+<tspan x="10" y="458"></tspan>
+
+<tspan x="10" y="474"></tspan>
+
+<tspan x="10" y="490">buildApidoc - 0 failed tests</tspan>
+
+<tspan x="10" y="506"></tspan>
+
+<tspan x="10" y="522"></tspan>
+
+<tspan x="10" y="538">[MODE_BUILD=buildApidoc] - 2018-06-16T07:58:30.870Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>

@@ -1,0 +1,620 @@
+<svg height="6382" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="6382" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2018-06-16T07:58:09.158Z - npm-testing /home/travis/build/npmdoc/node-npm\</tspan>
+<tspan x="10" y="58">doc-jsonstream</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">npmTest - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/buil\</tspan>
+<tspan x="10" y="122">d/test-report.json</tspan>
+
+<tspan x="10" y="138">&gt; server listening on http-port 39627</tspan>
+
+<tspan x="10" y="154">[node test-case 1 of 8 passed] - testCase_buildApidoc_default</tspan>
+
+<tspan x="10" y="170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="186">eam/package.json</tspan>
+
+<tspan x="10" y="202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="218">eam/index.js</tspan>
+
+<tspan x="10" y="234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="250">eam/LICENSE.APACHE2</tspan>
+
+<tspan x="10" y="266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="282">eam/LICENSE.MIT</tspan>
+
+<tspan x="10" y="298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="314">eam/.npmignore</tspan>
+
+<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="346">eam/package.json</tspan>
+
+<tspan x="10" y="362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="378">eam/readme.markdown</tspan>
+
+<tspan x="10" y="394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="410">eam/.travis.yml</tspan>
+
+<tspan x="10" y="426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="442">eam/examples/all_docs.js</tspan>
+
+<tspan x="10" y="458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="474">eam/test/bool.js</tspan>
+
+<tspan x="10" y="490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="506">eam/test/browser.js</tspan>
+
+<tspan x="10" y="522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="538">eam/test/destroy_missing.js</tspan>
+
+<tspan x="10" y="554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="570">eam/test/empty.js</tspan>
+
+<tspan x="10" y="586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="602">eam/test/fn.js</tspan>
+
+<tspan x="10" y="618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="634">eam/test/gen.js</tspan>
+
+<tspan x="10" y="650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="666">eam/test/map.js</tspan>
+
+<tspan x="10" y="682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="698">eam/test/multiple_objects_error.js</tspan>
+
+<tspan x="10" y="714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="730">eam/test/multiple_objects.js</tspan>
+
+<tspan x="10" y="746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="762">eam/test/null.js</tspan>
+
+<tspan x="10" y="778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="794">eam/test/parsejson.js</tspan>
+
+<tspan x="10" y="810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="826">eam/test/stringify.js</tspan>
+
+<tspan x="10" y="842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="858">eam/test/stringify_object.js</tspan>
+
+<tspan x="10" y="874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="890">eam/test/test2.js</tspan>
+
+<tspan x="10" y="906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="922">eam/test/test.js</tspan>
+
+<tspan x="10" y="938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="954">eam/test/two-ways.js</tspan>
+
+<tspan x="10" y="970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="986">eam/test/disabled/doubledot1.js</tspan>
+
+<tspan x="10" y="1002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1018">eam/test/disabled/doubledot2.js</tspan>
+
+<tspan x="10" y="1034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1050">eam/test/fixtures/all_npm.json</tspan>
+
+<tspan x="10" y="1066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1082">eam/test/fixtures/depth.json</tspan>
+
+<tspan x="10" y="1098">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstrea\</tspan>
+<tspan x="10" y="1114">m ...</tspan>
+
+<tspan x="10" y="1130">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonst\</tspan>
+<tspan x="10" y="1146">ream</tspan>
+
+<tspan x="10" y="1162">apidocCreate - libFile index.js</tspan>
+
+<tspan x="10" y="1178">created apidoc file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/build/apidoc.html</tspan>
+
+<tspan x="10" y="1194"></tspan>
+
+<tspan x="10" y="1210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1226">eam/package.json</tspan>
+
+<tspan x="10" y="1242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1258">eam/index.js</tspan>
+
+<tspan x="10" y="1274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1290">eam/LICENSE.APACHE2</tspan>
+
+<tspan x="10" y="1306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1322">eam/LICENSE.MIT</tspan>
+
+<tspan x="10" y="1338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1354">eam/.npmignore</tspan>
+
+<tspan x="10" y="1370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1386">eam/package.json</tspan>
+
+<tspan x="10" y="1402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1418">eam/readme.markdown</tspan>
+
+<tspan x="10" y="1434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1450">eam/.travis.yml</tspan>
+
+<tspan x="10" y="1466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1482">eam/examples/all_docs.js</tspan>
+
+<tspan x="10" y="1498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1514">eam/test/bool.js</tspan>
+
+<tspan x="10" y="1530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1546">eam/test/browser.js</tspan>
+
+<tspan x="10" y="1562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1578">eam/test/destroy_missing.js</tspan>
+
+<tspan x="10" y="1594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1610">eam/test/empty.js</tspan>
+
+<tspan x="10" y="1626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1642">eam/test/fn.js</tspan>
+
+<tspan x="10" y="1658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1674">eam/test/gen.js</tspan>
+
+<tspan x="10" y="1690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1706">eam/test/map.js</tspan>
+
+<tspan x="10" y="1722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1738">eam/test/multiple_objects_error.js</tspan>
+
+<tspan x="10" y="1754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1770">eam/test/multiple_objects.js</tspan>
+
+<tspan x="10" y="1786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1802">eam/test/null.js</tspan>
+
+<tspan x="10" y="1818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1834">eam/test/parsejson.js</tspan>
+
+<tspan x="10" y="1850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1866">eam/test/stringify.js</tspan>
+
+<tspan x="10" y="1882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1898">eam/test/stringify_object.js</tspan>
+
+<tspan x="10" y="1914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1930">eam/test/test2.js</tspan>
+
+<tspan x="10" y="1946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1962">eam/test/test.js</tspan>
+
+<tspan x="10" y="1978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="1994">eam/test/two-ways.js</tspan>
+
+<tspan x="10" y="2010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2026">eam/test/disabled/doubledot1.js</tspan>
+
+<tspan x="10" y="2042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2058">eam/test/disabled/doubledot2.js</tspan>
+
+<tspan x="10" y="2074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2090">eam/test/fixtures/all_npm.json</tspan>
+
+<tspan x="10" y="2106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2122">eam/test/fixtures/depth.json</tspan>
+
+<tspan x="10" y="2138">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstrea\</tspan>
+<tspan x="10" y="2154">m ...</tspan>
+
+<tspan x="10" y="2170">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonst\</tspan>
+<tspan x="10" y="2186">ream</tspan>
+
+<tspan x="10" y="2202">apidocCreate - libFile index.js</tspan>
+
+<tspan x="10" y="2218">created customOrg file /home/travis/build/npmdoc/node-npmdoc-jsonstream/README.md</tspan>
+
+<tspan x="10" y="2234"></tspan>
+
+<tspan x="10" y="2250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2266">eam/package.json</tspan>
+
+<tspan x="10" y="2282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2298">eam/index.js</tspan>
+
+<tspan x="10" y="2314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2330">eam/LICENSE.APACHE2</tspan>
+
+<tspan x="10" y="2346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2362">eam/LICENSE.MIT</tspan>
+
+<tspan x="10" y="2378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2394">eam/.npmignore</tspan>
+
+<tspan x="10" y="2410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2426">eam/package.json</tspan>
+
+<tspan x="10" y="2442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2458">eam/readme.markdown</tspan>
+
+<tspan x="10" y="2474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2490">eam/.travis.yml</tspan>
+
+<tspan x="10" y="2506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2522">eam/examples/all_docs.js</tspan>
+
+<tspan x="10" y="2538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2554">eam/test/bool.js</tspan>
+
+<tspan x="10" y="2570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2586">eam/test/browser.js</tspan>
+
+<tspan x="10" y="2602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2618">eam/test/destroy_missing.js</tspan>
+
+<tspan x="10" y="2634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2650">eam/test/empty.js</tspan>
+
+<tspan x="10" y="2666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2682">eam/test/fn.js</tspan>
+
+<tspan x="10" y="2698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2714">eam/test/gen.js</tspan>
+
+<tspan x="10" y="2730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2746">eam/test/map.js</tspan>
+
+<tspan x="10" y="2762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2778">eam/test/multiple_objects_error.js</tspan>
+
+<tspan x="10" y="2794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2810">eam/test/multiple_objects.js</tspan>
+
+<tspan x="10" y="2826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2842">eam/test/null.js</tspan>
+
+<tspan x="10" y="2858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2874">eam/test/parsejson.js</tspan>
+
+<tspan x="10" y="2890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2906">eam/test/stringify.js</tspan>
+
+<tspan x="10" y="2922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2938">eam/test/stringify_object.js</tspan>
+
+<tspan x="10" y="2954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="2970">eam/test/test2.js</tspan>
+
+<tspan x="10" y="2986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3002">eam/test/test.js</tspan>
+
+<tspan x="10" y="3018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3034">eam/test/two-ways.js</tspan>
+
+<tspan x="10" y="3050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3066">eam/test/disabled/doubledot1.js</tspan>
+
+<tspan x="10" y="3082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3098">eam/test/disabled/doubledot2.js</tspan>
+
+<tspan x="10" y="3114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3130">eam/test/fixtures/all_npm.json</tspan>
+
+<tspan x="10" y="3146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3162">eam/test/fixtures/depth.json</tspan>
+
+<tspan x="10" y="3178">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstrea\</tspan>
+<tspan x="10" y="3194">m ...</tspan>
+
+<tspan x="10" y="3210">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonst\</tspan>
+<tspan x="10" y="3226">ream</tspan>
+
+<tspan x="10" y="3242">apidocCreate - libFile index.js</tspan>
+
+<tspan x="10" y="3258">created apidoc file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/build/apidoc.html</tspan>
+
+<tspan x="10" y="3274"></tspan>
+
+<tspan x="10" y="3290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3306">eam/package.json</tspan>
+
+<tspan x="10" y="3322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3338">eam/index.js</tspan>
+
+<tspan x="10" y="3354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3370">eam/LICENSE.APACHE2</tspan>
+
+<tspan x="10" y="3386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3402">eam/LICENSE.MIT</tspan>
+
+<tspan x="10" y="3418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3434">eam/.npmignore</tspan>
+
+<tspan x="10" y="3450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3466">eam/package.json</tspan>
+
+<tspan x="10" y="3482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3498">eam/readme.markdown</tspan>
+
+<tspan x="10" y="3514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3530">eam/.travis.yml</tspan>
+
+<tspan x="10" y="3546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3562">eam/examples/all_docs.js</tspan>
+
+<tspan x="10" y="3578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3594">eam/test/bool.js</tspan>
+
+<tspan x="10" y="3610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3626">eam/test/browser.js</tspan>
+
+<tspan x="10" y="3642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3658">eam/test/destroy_missing.js</tspan>
+
+<tspan x="10" y="3674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3690">eam/test/empty.js</tspan>
+
+<tspan x="10" y="3706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3722">eam/test/fn.js</tspan>
+
+<tspan x="10" y="3738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3754">eam/test/gen.js</tspan>
+
+<tspan x="10" y="3770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3786">eam/test/map.js</tspan>
+
+<tspan x="10" y="3802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3818">eam/test/multiple_objects_error.js</tspan>
+
+<tspan x="10" y="3834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3850">eam/test/multiple_objects.js</tspan>
+
+<tspan x="10" y="3866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3882">eam/test/null.js</tspan>
+
+<tspan x="10" y="3898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3914">eam/test/parsejson.js</tspan>
+
+<tspan x="10" y="3930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3946">eam/test/stringify.js</tspan>
+
+<tspan x="10" y="3962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="3978">eam/test/stringify_object.js</tspan>
+
+<tspan x="10" y="3994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4010">eam/test/test2.js</tspan>
+
+<tspan x="10" y="4026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4042">eam/test/test.js</tspan>
+
+<tspan x="10" y="4058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4074">eam/test/two-ways.js</tspan>
+
+<tspan x="10" y="4090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4106">eam/test/disabled/doubledot1.js</tspan>
+
+<tspan x="10" y="4122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4138">eam/test/disabled/doubledot2.js</tspan>
+
+<tspan x="10" y="4154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4170">eam/test/fixtures/all_npm.json</tspan>
+
+<tspan x="10" y="4186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstr\</tspan>
+<tspan x="10" y="4202">eam/test/fixtures/depth.json</tspan>
+
+<tspan x="10" y="4218">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonstrea\</tspan>
+<tspan x="10" y="4234">m ...</tspan>
+
+<tspan x="10" y="4250">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-jsonstream/node_modules/jsonst\</tspan>
+<tspan x="10" y="4266">ream</tspan>
+
+<tspan x="10" y="4282">apidocCreate - libFile index.js</tspan>
+
+<tspan x="10" y="4298">created customOrg file /home/travis/build/npmdoc/node-npmdoc-jsonstream/README.md</tspan>
+
+<tspan x="10" y="4314"></tspan>
+
+<tspan x="10" y="4330">[node test-case 2 of 8 passed] - testCase_buildLib_default</tspan>
+
+<tspan x="10" y="4346">[node test-case 3 of 8 passed] - testCase_buildReadme_default</tspan>
+
+<tspan x="10" y="4362">[node test-case 4 of 8 passed] - testCase_buildTest_default</tspan>
+
+<tspan x="10" y="4378">[node test-case 5 of 8 passed] - testCase_nop_default</tspan>
+
+<tspan x="10" y="4394"></tspan>
+
+<tspan x="10" y="4410">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/e\</tspan>
+<tspan x="10" y="4426">lectron.1640799feb80.1b592cb758fae.html</tspan>
+
+<tspan x="10" y="4442"></tspan>
+
+<tspan x="10" y="4458">(node:4544) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
+<tspan x="10" y="4474">e.</tspan>
+
+<tspan x="10" y="4490">(node:4544) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+
+<tspan x="10" y="4506">[node test-case 6 of 8 passed] - testCase_buildCustomOrg_default</tspan>
+
+<tspan x="10" y="4522">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+
+<tspan x="10" y="4538">&gt; server listening on http-port 63848</tspan>
+
+<tspan x="10" y="4554">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+
+<tspan x="10" y="4570">[4756:0616/075811.099889:WARNING:audio_manager.cc(295)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="4586">ted</tspan>
+
+<tspan x="10" y="4602">[4756:0616/075811.099954:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="4618">ted</tspan>
+
+<tspan x="10" y="4634">[4791:0616/075811.140691:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="4650">hreads in process gpu-process. </tspan>
+
+<tspan x="10" y="4666">[4756:0616/075811.238799:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="4682">l.</tspan>
+
+<tspan x="10" y="4698">[4756:0616/075811.239046:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="4714">l.</tspan>
+
+<tspan x="10" y="4730">[4756:0616/075811.246692:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="4746">l.</tspan>
+
+<tspan x="10" y="4762">[4756:0616/075811.248624:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="4778">l.</tspan>
+
+<tspan x="10" y="4794">[4756:0616/075811.248712:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="4810">l.</tspan>
+
+<tspan x="10" y="4826"></tspan>
+
+<tspan x="10" y="4842">browserTest - opened http://127.0.0.1:39627?modeTest=1&amp;timeoutDefault=120000</tspan>
+
+<tspan x="10" y="4858"></tspan>
+
+<tspan x="10" y="4874">[4756:0616/075811.868520:INFO:CONSOLE(266)] "[browser test-case 1 of 8 passed] - testCase_buildA\</tspan>
+<tspan x="10" y="4890">pidoc_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.164\</tspan>
+<tspan x="10" y="4906">0799feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="4922">[4756:0616/075811.880700:INFO:CONSOLE(266)] "[browser test-case 2 of 8 passed] - testCase_buildA\</tspan>
+<tspan x="10" y="4938">pp_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.164079\</tspan>
+<tspan x="10" y="4954">9feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="4970">[4756:0616/075811.882441:INFO:CONSOLE(266)] "[browser test-case 3 of 8 passed] - testCase_buildC\</tspan>
+<tspan x="10" y="4986">ustomOrg_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.\</tspan>
+<tspan x="10" y="5002">1640799feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5018">[4756:0616/075811.884011:INFO:CONSOLE(266)] "[browser test-case 4 of 8 passed] - testCase_buildL\</tspan>
+<tspan x="10" y="5034">ib_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.164079\</tspan>
+<tspan x="10" y="5050">9feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5066">[4756:0616/075811.885687:INFO:CONSOLE(266)] "[browser test-case 5 of 8 passed] - testCase_buildR\</tspan>
+<tspan x="10" y="5082">eadme_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.164\</tspan>
+<tspan x="10" y="5098">0799feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5114">[4756:0616/075811.887438:INFO:CONSOLE(266)] "[browser test-case 6 of 8 passed] - testCase_buildT\</tspan>
+<tspan x="10" y="5130">est_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.16407\</tspan>
+<tspan x="10" y="5146">99feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5162">[4756:0616/075811.892076:INFO:CONSOLE(266)] "[browser test-case 7 of 8 passed] - testCase_nop_de\</tspan>
+<tspan x="10" y="5178">fault", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb8\</tspan>
+<tspan x="10" y="5194">0.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5210">[4756:0616/075811.892102:INFO:CONSOLE(266)] "domStyleValidateUnmatched 0. 0 .testReportDiv .test\</tspan>
+<tspan x="10" y="5226">Failed {", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799f\</tspan>
+<tspan x="10" y="5242">eb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5258">[4756:0616/075811.894361:INFO:CONSOLE(266)] "domStyleValidateUnmatched 1. 0 .testReportDiv img {\</tspan>
+<tspan x="10" y="5274">", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80.1b5\</tspan>
+<tspan x="10" y="5290">92cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5306">[4756:0616/075811.895656:INFO:CONSOLE(266)] "domStyleValidateUnmatched 2. 1 .testReportDiv .disp\</tspan>
+<tspan x="10" y="5322">layNone {", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799\</tspan>
+<tspan x="10" y="5338">feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5354">[4756:0616/075811.897508:INFO:CONSOLE(266)] "domStyleValidateUnmatched 3. 1 .testReportDiv .foot\</tspan>
+<tspan x="10" y="5370">er {", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80\</tspan>
+<tspan x="10" y="5386">.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5402">[4756:0616/075811.899143:INFO:CONSOLE(266)] "domStyleValidateUnmatched 4. 1 .testReportDiv .summ\</tspan>
+<tspan x="10" y="5418">ary {", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb8\</tspan>
+<tspan x="10" y="5434">0.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5450">[4756:0616/075811.900704:INFO:CONSOLE(266)] "domStyleValidateUnmatched 5. 1 .testReportDiv pre {\</tspan>
+<tspan x="10" y="5466">", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80.1b5\</tspan>
+<tspan x="10" y="5482">92cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5498">[4756:0616/075811.902346:INFO:CONSOLE(266)] "domStyleValidateUnmatched 6. 1 body &gt; pre,", source\</tspan>
+<tspan x="10" y="5514">: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80.1b592cb758fa\</tspan>
+<tspan x="10" y="5530">e.html (266)</tspan>
+
+<tspan x="10" y="5546">[4756:0616/075811.903945:INFO:CONSOLE(266)] "domStyleValidateUnmatched 7. 1 body &gt; pre,", source\</tspan>
+<tspan x="10" y="5562">: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80.1b592cb758fa\</tspan>
+<tspan x="10" y="5578">e.html (266)</tspan>
+
+<tspan x="10" y="5594">[4756:0616/075811.905512:INFO:CONSOLE(266)] "domStyleValidateUnmatched 8. 1 body {", source: fil\</tspan>
+<tspan x="10" y="5610">e:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80.1b592cb758fae.htm\</tspan>
+<tspan x="10" y="5626">l (266)</tspan>
+
+<tspan x="10" y="5642">[4756:0616/075811.907280:INFO:CONSOLE(266)] "domStyleValidateUnmatched 9. 1 body {", source: fil\</tspan>
+<tspan x="10" y="5658">e:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799feb80.1b592cb758fae.htm\</tspan>
+<tspan x="10" y="5674">l (266)</tspan>
+
+<tspan x="10" y="5690">[4756:0616/075811.908937:INFO:CONSOLE(266)] "[browser test-case 8 of 8 passed] - testCase_webpag\</tspan>
+<tspan x="10" y="5706">e_default", source: file:///home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/electron.1640799\</tspan>
+<tspan x="10" y="5722">feb80.1b592cb758fae.html (266)</tspan>
+
+<tspan x="10" y="5738">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="5754"></tspan>
+
+<tspan x="10" y="5770">browserTest - created screenshot file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/build\</tspan>
+<tspan x="10" y="5786">/screenshot.npmTest.browser.%2F.png</tspan>
+
+<tspan x="10" y="5802"></tspan>
+
+<tspan x="10" y="5818">browserTest - created screenshot file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/build\</tspan>
+<tspan x="10" y="5834">/screenshot.npmTest.browser.%2F.html</tspan>
+
+<tspan x="10" y="5850"></tspan>
+
+<tspan x="10" y="5866">browserTest - exit-code 0 - http://127.0.0.1:39627?modeTest=1&amp;timeoutDefault=120000</tspan>
+
+<tspan x="10" y="5882"></tspan>
+
+<tspan x="10" y="5898"></tspan>
+
+<tspan x="10" y="5914">browserTest - merged coverage from file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/cov\</tspan>
+<tspan x="10" y="5930">erage.npmTest.browser.%2F.json</tspan>
+
+<tspan x="10" y="5946"></tspan>
+
+<tspan x="10" y="5962"></tspan>
+
+<tspan x="10" y="5978">browserTest - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/\</tspan>
+<tspan x="10" y="5994">test-report.npmTest.browser.%2F.json</tspan>
+
+<tspan x="10" y="6010"></tspan>
+
+<tspan x="10" y="6026">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
+
+<tspan x="10" y="6042"></tspan>
+
+<tspan x="10" y="6058">npmTest - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/buil\</tspan>
+<tspan x="10" y="6074">d/test-report.json</tspan>
+
+<tspan x="10" y="6090"></tspan>
+
+<tspan x="10" y="6106">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="6122">| test-report - buildApp - node - linux v6.14.3 - 2018-06-16T07:58:00.749Z</tspan>
+
+<tspan x="10" y="6138">|   25757 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="6154">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="6170">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="6186">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-16T07:58:11.811Z</tspan>
+
+<tspan x="10" y="6202">|      49 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="6218">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="6234"></tspan>
+
+<tspan x="10" y="6250">created test-report file /home/travis/build/npmdoc/node-npmdoc-jsonstream/tmp/build/test-report.\</tspan>
+<tspan x="10" y="6266">html</tspan>
+
+<tspan x="10" y="6282"></tspan>
+
+<tspan x="10" y="6298"></tspan>
+
+<tspan x="10" y="6314">npmTest - 0 failed tests</tspan>
+
+<tspan x="10" y="6330"></tspan>
+
+<tspan x="10" y="6346"></tspan>
+
+<tspan x="10" y="6362">[MODE_BUILD=npmTest] - 2018-06-16T07:58:28.000Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>

@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "jsonstream",
-    "description": "#### basic api documentation for  [jsonstream (v1.0.3)](http://github.com/dominictarr/JSONStream)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsonstream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsonstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)",
+    "description": "#### basic api documentation for  [jsonstream (1.0.3)](http://github.com/dominictarr/JSONStream)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "jsonstream": "*",
@@ -19,6 +19,8 @@
     "main": "lib.npmdoc_jsonstream.js",
     "name": "npmdoc-jsonstream",
     "nameAlias": "npmdoc_jsonstream",
+    "nameAliasPublish": "",
+    "nameLib": "npmdoc_jsonstream",
     "nameOriginal": "npmdoc-jsonstream",
     "os": [
         "darwin",
@@ -29,12 +31,13 @@
         "url": "https://github.com/npmdoc/node-npmdoc-jsonstream.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
-        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
-        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
-        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
-    "version": "0.0.3"
+    "version": "2018.6.16"
 }

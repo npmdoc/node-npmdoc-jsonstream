@@ -1,6 +1,6 @@
 # npmdoc-jsonstream
 
-#### basic api documentation for  [jsonstream (v1.0.3)](http://github.com/dominictarr/JSONStream)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsonstream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsonstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)
+#### basic api documentation for  [jsonstream (1.0.3)](http://github.com/dominictarr/JSONStream)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsonstream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsonstream)
 
 #### rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
 
@@ -8,11 +8,11 @@
 
 - [https://npmdoc.github.io/node-npmdoc-jsonstream/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-jsonstream/build/apidoc.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsonstream/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsonstream/build/apidoc.html)
 
-![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenCapture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenshot.npmPackageListing.svg)
 
-![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenCapture.npmPackageDependencyTree.svg)
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-jsonstream/build/screenshot.npmPackageDependencyTree.svg)
 
 
 
